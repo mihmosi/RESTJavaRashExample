@@ -9,7 +9,7 @@ public interface ClientService {
      * Создает нового клиента
      * @param client - клиент для создания
      */
-    void client(Client client);
+    void create(Client client);
 
     /**
      * Возвращает список всех имеющихся клиентов
